@@ -55,11 +55,11 @@ const [oldPmt, setOldPmt] = useState("");
   ]);
 
   // --- New Cash-Out Loan State ---
-  const [newLoanAmount, setNewLoanAmount] = useState<number | string>("");
-  const [newRate, setNewRate] = useState<number | string>("");
-  const [newTerm, setNewTerm] = useState<number | string>(30);
+  const [newLoanAmount, setNewLoanAmount] = useState("");
+  const [newRate, setNewRate] = useState("");
+  const [newTerm, setNewTerm] = useState(30);
   const [reinvestSavings, setReinvestSavings] = useState(false);
-  const [extraNewPrincipal, setExtraNewPrincipal] = useState<number | string>("");
+  const [extraNewPrincipal, setExtraNewPrincipal] = useState | string>("");
 
   // --- Debt Handlers ---
   const addDebt = () => {
