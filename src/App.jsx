@@ -38,9 +38,9 @@ const formatMonthsToYears = (totalMonths: number) => {
 
 export default function App() {
   // --- Current Mortgage State ---
-  const [oldBalance, setOldBalance] = useState<number | string>("");
-  const [oldRate, setOldRate] = useState<number | string>("");
-  const [oldPmt, setOldPmt] = useState<number | string>("");
+const [oldBalance, setOldBalance] = useState("");
+const [oldRate, setOldRate] = useState("");
+const [oldPmt, setOldPmt] = useState("");
 
   // --- Debts State ---
   const [debts, setDebts] = useState([
