@@ -247,7 +247,7 @@ export default function App() {
   const cardLabelStyle = {
     fontSize: "13px",
     color: "#6b7280",
-    textTransform: "uppercase" as const,
+    textTransform: "uppercase",
     letterSpacing: "0.05em",
     fontWeight: "bold",
   };
@@ -255,7 +255,7 @@ export default function App() {
     fontSize: "11px",
     fontWeight: "bold",
     color: "#6b7280",
-    textTransform: "uppercase" as const,
+    textTransform: "uppercase",
   };
 
   return (
