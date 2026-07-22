@@ -59,7 +59,7 @@ const [oldPmt, setOldPmt] = useState("");
   const [newRate, setNewRate] = useState("");
   const [newTerm, setNewTerm] = useState(30);
   const [reinvestSavings, setReinvestSavings] = useState(false);
-  const [extraNewPrincipal, setExtraNewPrincipal] = useState | string>("");
+  const [extraNewPrincipal, setExtraNewPrincipal] = useState("");
 
   // --- Debt Handlers ---
   const addDebt = () => {
